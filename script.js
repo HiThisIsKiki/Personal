@@ -1,5 +1,7 @@
 $(document).ready(function(){
-	content = $('.typing').attr('content')
+	content = $('.typing').html()
+	$('.typing').html('')
+	$('.typing').removeClass('hidden')
 	typingSpeed = 65
 	pauseSpeed = 500
 
