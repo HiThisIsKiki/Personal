@@ -24,5 +24,4 @@ $(document).ready(function(){
 	}
 	type();
 
-	$('.project .overlay').height($('.project img').height())
 })
